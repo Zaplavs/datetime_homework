@@ -13,7 +13,7 @@
 Сначала вам нужно скопировать все файлы этого проекта к себе на компьютер. Откройте терминал (или Git Bash на Windows) и выполните команду:
 
 ```bash
-git clone https://github.com/zaplavs/datetime_homework.git
+git clone https://github.com/Zaplavs/datetime_homework.git
 cd datetime_homework
 ```
 
