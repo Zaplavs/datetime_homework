@@ -13,16 +13,4 @@ def validate_date_format(date_str):
     Returns:
         bool: True, если дата корректна, иначе False
     """
-    # Проверяем формат строки с помощью регулярного выражения
-    import re
-    pattern = r'^\d{2}/\d{2}/\d{4}$'
-    if not re.match(pattern, date_str):
-        return False
-    
-    try:
-        # Проверяем формат даты
-        datetime.strptime(date_str, "%d/%m/%Y")
-        return True
-    except ValueError:
-        # Если формат неправильный или дата несуществующая (например, 32/13/2025)
-        return False
+    pass

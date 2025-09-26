@@ -12,6 +12,4 @@ def calculate_return_date(days):
     Returns:
         datetime: Будущая дата
     """
-    current_date = datetime.now()
-    future_date = current_date + timedelta(days=days)
-    return future_date
+    pass

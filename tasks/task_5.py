@@ -14,18 +14,4 @@ def analyze_timestamps(start_time, end_time):
     Returns:
         str: Строка с разницей во времени
     """
-    # Преобразуем строки в объекты datetime
-    start_dt = datetime.strptime(start_time, "%Y-%m-%d %H:%M:%S")
-    end_dt = datetime.strptime(end_time, "%Y-%m-%d %H:%M:%S")
-    
-    # Вычисляем разницу
-    diff = end_dt - start_dt
-    
-    # Получаем общее количество секунд
-    total_seconds = int(diff.total_seconds())
-    
-    # Вычисляем минуты и секунды
-    minutes = total_seconds // 60
-    seconds = total_seconds % 60
-    
-    return f"Операция заняла: {minutes} минут {seconds} секунд."
+    pass
